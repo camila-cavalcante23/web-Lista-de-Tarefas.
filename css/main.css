@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+   
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    background-color:rgb(17, 161, 245);
+    text-align: center;
+    
+}
+
+.list{
+    margin: 30px 5px;
+    font-family: "poppins", sans-serif;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-top:10px ;
+    text-shadow: 1px 1px black;
+   
+
+}
+
+p{
+    font-weight: 500;
+    margin: 5px 0px;
+    text-shadow: 0px 0px black;
+  
+}
+.texto{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.botaoAdicionar{
+    border-radius: 5px;
+    min-width: 10%;
+    padding: 0px;
+    height: 29px;
+    margin: 1px;
+    background-color: rgb(3, 189, 74);
+    color: rgb(248, 245, 245);
+ 
+}
+
+.botaoAdicionar:hover{
+    background-color: rgb(21, 134, 64);
+    color: rgb(248, 245, 245);
+}
+
+ul{
+text-align: left;
+margin-top: 10px;
+padding: 25px;
+
+}
+
+li{
+    padding: 8px 10px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+input {
+    border-radius: 5px;
+    min-width: 70%;
+    padding: 1px;
+    height: 29px;
+    border: none;
+    margin: 1px;
+
+}
+
+li > button{
+    margin-left: 10px;
+    float:right;
+   
+    
+}
+
+button:hover{
+    background-color:  rgb(218, 68, 68);
+    color: #fff;
+}
+
+
+
